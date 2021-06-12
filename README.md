@@ -8,7 +8,7 @@ A backup repository I created to be able to share my windows-terminal setup acro
 cd
 git clone https://github.com/totoLab/windows-terminal-config
 cd windows-terminal-config
-copy (as a backup) C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json.bak
-remove C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-mklink /H C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json settings.json
+copy (as a backup) C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\LocalState\settings.json C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\LocalState\settings.json.bak
+remove C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json
+mklink /H C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json settings.json
 ```
