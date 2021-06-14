@@ -4,9 +4,10 @@ A backup repository I created to be able to share my windows-terminal setup acro
 
 ### Installation instructions
 
-```Run updateConfig.bat
+Run through cmd.exe
+```updateConfig.bat```
 It will backup your current configuration and just symlink to this locally cloned repo.
-```
+
 
 ### updateConfig.bat dependencies
 ```mklink```
