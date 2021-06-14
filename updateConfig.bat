@@ -1,5 +1,5 @@
 for /d %%a in (
-  "C:\Users\virtualToto\AppData\Local\Packages\\Microsoft.WindowsTerminalPreview_*"
+  "C:\Users\%USERNAME%\AppData\Local\Packages\\Microsoft.WindowsTerminalPreview_*"
 ) do set "actualPath=%%~fa\LocalState"
 
 echo %actualPath%
