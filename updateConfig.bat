@@ -6,4 +6,4 @@ echo %actualPath%
 
 copy /y "%actualPath%\settings.json" "%actualPath%\settings.json.bak" 
 del "%actualPath%\settings.json"
-mklink /h "%actualPath%\settings.json" "%~dp0\settings.json"
+mklink /h "%actualPath%\settings.json" "%~dp0settings.json"
