@@ -4,11 +4,12 @@ A backup repository I created to be able to share my windows-terminal setup acro
 
 ### Installation instructions
 
-```Batchfile
-cd
-git clone https://github.com/totoLab/windows-terminal-config
-cd windows-terminal-config
-copy (as a backup) C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\LocalState\settings.json C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\LocalState\settings.json.bak
-remove C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json
-mklink /H C:\Users\Antonio\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json settings.json
+```Run updateConfig.bat
+It will backup your current configuration and just symlink to this locally cloned repo.
 ```
+
+### updateConfig.bat dependencies
+```mklink```
+
+### Shell dependencies
+```gsudo```
