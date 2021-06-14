@@ -1,9 +1,9 @@
 for /d %%a in (
   "C:\Users\virtualToto\AppData\Local\Packages\\Microsoft.WindowsTerminalPreview_*"
-) do set "theFolder=%%~fa\LocalState"
+) do set "actualPath=%%~fa\LocalState"
 
-echo %theFolder%
+echo %actualPath%
 
-copy /y "%theFolder%\settings.json" "%theFolder%\settings.json.bak" 
-del "%theFolder%\settings.json"
-mklink /h "%theFolder%\settings.json" "%~dp0\settings.json"
+copy /y "%actualPath%\settings.json" "%actualPath%\settings.json.bak" 
+del "%actualPath%\settings.json"
+mklink /h "%actualPath%\settings.json" "%~dp0\settings.json"
